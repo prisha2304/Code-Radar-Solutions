@@ -1,5 +1,6 @@
 #include <stdio.h>
 float a;
 scanf("%f",&a);
-printf("%.2f"3.14*a*a);
+area=(3.14*a*a);
+printf("%.2f",area);
 return 0;
