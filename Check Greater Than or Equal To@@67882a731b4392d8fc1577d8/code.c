@@ -1,4 +1,5 @@
 #include <stdio.h>
+int main{
 int a,b;
 scanf("%d",&a);
 scanf("%d",&b);
@@ -8,4 +9,4 @@ if(a>=b){
 else{
     printf("False");
 }
-return 0;
+return 0;}
