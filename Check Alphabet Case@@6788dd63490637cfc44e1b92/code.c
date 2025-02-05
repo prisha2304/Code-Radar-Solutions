@@ -2,10 +2,10 @@
 int main{
     char alp;
     scanf("%c",&alp);
-    if(alp>=97 && alp<=122){
+    if(alp>='A' && alp<='Z'){
         printf("Uppercase");
     }
-    else if(alp>=65 && alp<=90){
+    else if(alp>='a' && alp<='z'){
         printf("Lowercase");
     }
     return 0;
