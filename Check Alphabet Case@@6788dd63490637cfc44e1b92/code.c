@@ -8,5 +8,8 @@ int main{
     else if(alp>='a' && alp<='z'){
         printf("Lowercase");
     }
+    else{
+        printf("Not an alphabet");
+    }
     return 0;
 }
