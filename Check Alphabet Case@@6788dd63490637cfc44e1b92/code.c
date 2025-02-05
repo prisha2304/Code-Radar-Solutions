@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main{
     char alp;
-    scanf("%d",&alp);
+    scanf("%c",&alp);
     if(alp>=97 && alp<=122){
         printf("Uppercase");
     }
