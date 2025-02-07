@@ -12,8 +12,12 @@ int main(){
     else if(c=='*'){
         printf("%d",a*b);
     }
-    else if(c=='/'){
-        printf("%d",a/b);
+   else if(c == '/') {
+    if(b == 0) {
+        printf("error");  // Print error instead of crashing
+    } else {
+        printf("%d", a / b);
     }
+}
     return 0;
 }
