@@ -10,8 +10,8 @@ int main(){
             if(j==1 || j==n){
                 printf("*");
             }
-            printf("\n");
         }
+        printf("\n");
     }
     return 0;
 }
