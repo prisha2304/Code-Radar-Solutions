@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&n);
     int bits=sizeof(n)*8;
     int MSB=1<<(bits-1);
-    if(MSB==1){
+    if(n&MSB){
         printf("Set");
     }
     else{
