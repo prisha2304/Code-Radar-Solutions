@@ -2,5 +2,5 @@
 int main(){
     int n;
     scanf("%d",&n);
-    printf(n);
+    printf("%d",n);
 }
