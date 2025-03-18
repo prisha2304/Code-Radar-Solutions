@@ -4,7 +4,7 @@ int isPrime(int num) {
     for (int i = 0; i < num; i++) {
         scanf("%d", &num);  
         if (num <= 1) {
-            printf("0\n");
+            return 0;
             continue;
         }
         isprime = 1;
