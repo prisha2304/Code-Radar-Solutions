@@ -1,8 +1,7 @@
 #include<stdio.h>
 int isPrime(int num) {
     int isprime;
-    for (int i = 0; i < num; i++) {
-        scanf("%d", &num);  
+    for (int i = 0; i < num; i++) {  
         if (num <= 1) {
             return 0;
         }
