@@ -1,3 +1,4 @@
+#include<stdio.h>
 int isprime(int n){
     if(n<=1){
         return 0;
@@ -14,8 +15,7 @@ int isprime(int n){
 }
 int main(){
     int start, end;
-    scanf("%d",&start);
-    scanf("%d",&end);
+    scanf("%d %d",&start,&end);
     for(int j=start; j<=end;j++){
         if(isprime(j)){
             printf("%d ",j);
