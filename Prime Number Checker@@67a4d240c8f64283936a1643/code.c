@@ -1,9 +1,7 @@
 #include<stdio.h>
-int main() {
-    int n;
-    scanf("%d", &n);
-    int num, isprime;
-    for (int i = 0; i < n; i++) {
+int isPrime(int num) {
+    int isprime;
+    for (int i = 0; i < num; i++) {
         scanf("%d", &num);  
         if (num <= 1) {
             printf("0\n");
@@ -16,8 +14,6 @@ int main() {
                 break;
             }
         }
-
-        printf("%d\n", isprime);
     }
-    return 0;
+    return isprime;
 }
