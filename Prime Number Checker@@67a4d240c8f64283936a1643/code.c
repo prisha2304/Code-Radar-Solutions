@@ -12,5 +12,5 @@ int isPrime(int num) {
             }
         }
     }
-    return isprime;
+    return (num==0)?0: isprime;
 }
