@@ -1,5 +1,5 @@
 int main(){
-        int arr[100]={};  // u need to keep a size inside arr[] fot it to work, empty array cannot be declared
+        int arr[100]={}; 
         int n;
         scanf("%d",&n);
         for(int i=0;i<n;i++){
