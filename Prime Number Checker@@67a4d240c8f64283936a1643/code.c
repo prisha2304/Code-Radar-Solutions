@@ -5,13 +5,11 @@ int isPrime(int num) {
         scanf("%d", &num);  
         if (num <= 1) {
             return 0;
-            continue;
         }
         isprime = 1;
         for (int j = 2; j <= num/2; j++) { 
             if (num % j == 0) {
-                isprime = 0; 
-                break;
+                return 0;
             }
         }
     }
