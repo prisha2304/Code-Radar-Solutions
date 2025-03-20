@@ -23,20 +23,20 @@ int fibonacci(int n) {
     return fibonacci(n - 1) + fibonacci(n - 2); // Recursive call
 }
 
-int main() {
-    int n;
-    printf("Enter number of terms: ");
-    scanf("%d", &n);
+// int main() {
+//     int n;
+//     printf("Enter number of terms: ");
+//     scanf("%d", &n);
 
-    if (n <= 0) {
-        printf("Invalid input\n");
-        return 0;
-    }
+//     if (n <= 0) {
+//         printf("Invalid input\n");
+//         return 0;
+//     }
 
-    // Loop to print Fibonacci series
-    for (int i = 0; i < n; i++) {
-        printf("%d ", fibonacci(i));
-    }
+//     // Loop to print Fibonacci series
+//     for (int i = 0; i < n; i++) {
+//         printf("%d ", fibonacci(i));
+//     }
     
-    return 0;
-}
+//     return 0;
+// }
