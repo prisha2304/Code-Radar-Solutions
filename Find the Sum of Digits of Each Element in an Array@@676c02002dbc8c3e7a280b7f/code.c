@@ -20,7 +20,7 @@ int main(){
         new[i]=sum(arr[i]);
     }
     for(int i=0;i<n;i++){
-        printf("%d  ",new[i]);
+        printf("%d ",new[i]);
     }
     return 0;
 }
