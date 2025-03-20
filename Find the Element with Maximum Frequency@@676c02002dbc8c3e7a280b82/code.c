@@ -20,12 +20,7 @@ int main(){
         freq[i]=count;
         }
     }
-    // for(int i=0;i<n;i++){
-    //     if(freq[i]!=0){
-    //         printf("%d %d\n",arr[i],freq[i]);
-    //     }
-    // }
-    int max=freq[0],maxele;
+    int max=freq[0],maxele=arr[0];
     for(int i=0;i<n;i++){
         if(freq[i]>max){
             max=freq[i];
