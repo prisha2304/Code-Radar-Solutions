@@ -10,15 +10,16 @@
 //         printf("%d ", fibonacciSeries(n-1)+fibonacciSeries(n-2));
 //     }
 // }
-int fibonacciSeries(int n) {
+
+int fibonacci(int n) {
     if (n == 0) return 0; // Base case 1
     if (n == 1) return 1; // Base case 2
-    return fibonacciSeries(n - 1) + fibonacciSeries(n - 2); // Recursive call
+    return fibonacci(n - 1) + fibonacci(n - 2); // Recursive step
 }
 
-// Function to print Fibonacci series using recursion
-void printFibonacciSeries(int n, int i) {
+// Function to print Fibonacci series recursively
+void fibonacciSeries(int n, int i) {
     if (i == n) return; // Base condition to stop recursion
-    printf("%d ", fibonacciSeries(i)); // Print the ith Fibonacci number
-    printFibonacciSeries(n, i + 1); // Recursive call for next number
+    printf("%d ", fibonacci(i)); // Print the ith Fibonacci number
+    fibonacciSeries(n, i + 1); // Recursive call for next number
 }
