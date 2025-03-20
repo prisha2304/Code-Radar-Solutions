@@ -1,5 +1,7 @@
 #include<stdio.h>
+#include<stdlib.h>
 int sum(int num){
+    num=abs(num);
     int digit,s=0;
     while(num>0){
         digit=num%10;
