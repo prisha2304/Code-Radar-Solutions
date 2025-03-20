@@ -1,42 +1,9 @@
-// #include<stdio.h>
-// int fibonacciSeries(int n){
-//     if (n==0 ){
-//         return 0;
-//     }
-//     else if(n==1){
-//         return 1;
-//     }
-//     else{
-//         return(fibonacciSeries(n-1)+fibonacciSeries(n-2));
-//     }
-//     for(int i=0;i<n;i++){
-//         printf("%d ",fibonacciSeries(i));
-//     }
-// }
+#include<stdio.h>
+void fibonacciSeries(int n, int a, int b) {
+    if (n == 0) return; // Base case: stop when no more terms are left
 
-#include <stdio.h>
+    printf("%d ", a); // Print current Fibonacci number
 
-// Function to compute nth Fibonacci number recursively
-int fibonacci(int n) {
-    if (n == 0) return 0; // Base case
-    if (n == 1) return 1; // Base case
-    return fibonacci(n - 1) + fibonacci(n - 2); // Recursive call
+    // Recursive call for the next number in the series
+    fibonacciSeries(n - 1, b, a + b);
 }
-
-// int main() {
-//     int n;
-//     printf("Enter number of terms: ");
-//     scanf("%d", &n);
-
-//     if (n <= 0) {
-//         printf("Invalid input\n");
-//         return 0;
-//     }
-
-//     // Loop to print Fibonacci series
-//     for (int i = 0; i < n; i++) {
-//         printf("%d ", fibonacci(i));
-//     }
-    
-//     return 0;
-// }
