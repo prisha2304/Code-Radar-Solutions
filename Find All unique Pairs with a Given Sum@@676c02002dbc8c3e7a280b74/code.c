@@ -12,14 +12,14 @@ int main() {
     int k;
     scanf("%d", &k);
 
+    // Loop to find unique pairs
     for (int i = 0; i < n; i++) {
         for (int j = i + 1; j < n; j++) {
             if (arr[i] + arr[j] == k) {
-                int alreadyPrinted = 0;
-
                 // Check if this pair has already been printed
-                for (int x = 0; x < i; x++) {
-                    for (int y = x + 1; y < i; y++) {  // Fix: Compare only within previous elements
+                int alreadyPrinted = 0;
+                for (int x = 0; x < i; x++) { 
+                    for (int y = x + 1; y < i; y++) { 
                         if ((arr[x] == arr[i] && arr[y] == arr[j]) || (arr[x] == arr[j] && arr[y] == arr[i])) {
                             alreadyPrinted = 1;
                             break;
@@ -38,3 +38,4 @@ int main() {
 
     return 0;
 }
+
