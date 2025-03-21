@@ -13,7 +13,7 @@ int main(){
             if(arr[i]+arr[j]==k){
                 int alreadyPrinted=0;
                 for (int x = 0; x < i; x++) {
-                    for (int y = x + 1; y < n; y++) {
+                    for (int y = x + 1; y < i; y++) {
                         if ((arr[x] == arr[i] && arr[y] == arr[j]) || (arr[x] == arr[j] && arr[y] == arr[i])) {
                             alreadyPrinted = 1;
                             break;
