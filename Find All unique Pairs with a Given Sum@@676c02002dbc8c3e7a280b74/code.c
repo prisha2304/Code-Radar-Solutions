@@ -30,10 +30,10 @@ int main() {
                 // Print only if it's a new unique pair
                 // if (!alreadyPrinted) {
                 //     printf("%d %d\n", arr[i], arr[j]);
-                }
-        }
-        if (!alreadyPrinted) {
+            }
+            if (!alreadyPrinted) {
                     printf("%d %d\n", arr[i], arr[j]);
+        }
     }
 
     return 0;
