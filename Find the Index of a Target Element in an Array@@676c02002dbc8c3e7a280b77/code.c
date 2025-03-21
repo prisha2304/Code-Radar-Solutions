@@ -12,6 +12,12 @@ int main(){
         if(arr[i]==k){
             printf("%d",i);
         }
+        else if(arr[i]!=k){
+            printf("-1");
+        }
+        else{
+            printf("0");
+        }
     }
     return 0;
 }
