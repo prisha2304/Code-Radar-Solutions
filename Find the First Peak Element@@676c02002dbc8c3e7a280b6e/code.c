@@ -17,6 +17,9 @@ int main() {
             printf("%d\n", arr[i]); // Print the first peak and break
             break;
         }
+        else{
+            printf("-1");
+        }
     }
 
     return 0;
