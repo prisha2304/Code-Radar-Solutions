@@ -19,6 +19,7 @@ int main(){
            
         }
     }
+    }
     if(foundeven){
         printf("%d",max);
     }
