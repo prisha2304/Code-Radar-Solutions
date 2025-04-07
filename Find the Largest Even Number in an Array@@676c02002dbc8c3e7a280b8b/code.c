@@ -6,16 +6,24 @@ int main(){
     for(int i=0;i<n;i++){
     scanf("%d",&arr[i]);}
     int max=arr[0];
+    int foundeven=1;
     for(int i=0;i<n;i++){
         if(arr[i]%2==0){
-            if(arr[i]>max){
+            if(foundeven){
+                if(arr[i]>max){
                 max=arr[i];
             }
-        }
-        else{
-        printf("%d",-1);
+            else{
+                foundeven=-1;
+            }
+           
         }
     }
-    printf("%d",max);
+    if(foundeven){
+        printf("%d",max);
+    }
+    else{
+        printf("%d",foundeven);
+    }
     return 0;
 }
