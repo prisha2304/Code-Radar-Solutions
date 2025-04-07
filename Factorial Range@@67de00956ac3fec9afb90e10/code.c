@@ -1,12 +1,11 @@
 #include<stdio.h>
-int factorialRange(int start,int end){
-    int fact=1;
-    for(int i=start;i<=end;i++){
-        if(i==0){
-            return 1;
-        }
-        else {
-            return i* factorialRange(i-1);
-        }
+int factorial(int n) {
+    if (n == 0 || n == 1)
+        return 1;
+    return n * factorial(n - 1);
+}
+void factorialRange(int start, int end) {
+    for (int i = start; i <= end; i++) {
+        printf("%d\n", factorial(i));
     }
 }
