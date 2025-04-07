@@ -12,9 +12,9 @@ int main(){
                 max=arr[i];
             }
         }
-        else{
-            printf("-1");
-        }
+    }
+    else{
+        printf("%d",-1);
     }
     printf("%d",max);
     return 0;
