@@ -27,6 +27,9 @@ int main(){
             maxele=arr[i];
         }
     }
-    printf("%d",maxele);
+     if (max > n / 2)
+        printf("%d", maxele); // Majority element found
+    else
+        printf("-1"); 
     return 0;
 }
