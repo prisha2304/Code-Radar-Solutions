@@ -15,6 +15,7 @@ int main(){
             }
         }
     }
+    // IMP STEP AHEAD(for negative numbers)
     int pro1=arr[n-1]*arr[n-2];
     int pro2=arr[0]*arr[1];
     if(pro1>pro2){
