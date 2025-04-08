@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
 int main(){
     int n;
     scanf("%d",&n);
@@ -16,7 +15,13 @@ int main(){
             }
         }
     }
-    int pro=abs(arr[n-1]*arr[n-2]);
-    printf("%d",pro);
+    int pro1=arr[n-1]*arr[n-2];
+    int pro2=arr[0]*arr[1];
+    if(pro1>pro2){
+        printf("%d",pro1);
+    }
+    else{
+        printf("%d",pro2);
+    }
     return 0;
 }
