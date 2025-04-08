@@ -23,13 +23,12 @@ int main(){
                 if(alreadyprinted){
                     break;
                 }
-                
+                }
                 if(!alreadyprinted){
             printf("%d %d\n",arr[i],arr[j]);
         }
                 }
     }
 }
-    }
     return 0;
 }
