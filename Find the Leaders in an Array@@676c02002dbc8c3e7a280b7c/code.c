@@ -16,7 +16,7 @@ int main(){
         }
     }
     for(int i=count -1;i>=0;i--){
-        printf("%d",result[i]);
+        printf("%d ",result[i]);
     }
     return 0;
 }
