@@ -24,7 +24,7 @@ int main(){
                     break;
                 }
                 
-                else{
+                if(!alreadyprinted){
             printf("%d %d\n",arr[i],arr[j]);
         }
                 }
