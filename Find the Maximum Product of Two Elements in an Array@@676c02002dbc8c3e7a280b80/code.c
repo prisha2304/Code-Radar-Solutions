@@ -15,8 +15,10 @@ int main(){
             }
         }
     }
+    int pro;
     for(int i=0;i<n;i++){
-        printf("%d",arr[n-1]+arr[n-2]);
+         pro=arr[n-1]*arr[n-2];
     }
+    printf("%d",pro);
     return 0;
 }
