@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 int main(){
     int n;
     scanf("%d",&n);
@@ -17,7 +18,7 @@ int main(){
     }
     int pro;
     for(int i=0;i<n;i++){
-         pro=arr[n-1]*arr[n-2];
+         pro=(absarr[n-1]*arr[n-2]);
     }
     printf("%d",pro);
     return 0;
