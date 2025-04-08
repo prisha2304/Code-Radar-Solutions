@@ -9,7 +9,7 @@ int main(){
     }
     int maxright=arr[n-1];
     result[count++]=maxright;
-    for(int i=n-2;i<=0;i--){
+    for(int i=n-2;i>=0;i--){
         if(arr[i]>=maxright){
             result[count++]=arr[i];
             maxright=arr[i];
