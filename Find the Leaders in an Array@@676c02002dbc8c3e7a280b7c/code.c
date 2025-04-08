@@ -17,7 +17,7 @@ int main() {
         }
     }
  // Last element is always valid
-    printf("%d ", maxRight);
+    printf("%d ", arr[n-1]);
 
     return 0;
 }
