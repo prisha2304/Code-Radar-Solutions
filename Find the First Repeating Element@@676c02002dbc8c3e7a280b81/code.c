@@ -16,5 +16,7 @@ int main(){
             }
         }
     }
+    if(found) break;
+    if(!found) printf("%d",-1);
     return 0;
 }
